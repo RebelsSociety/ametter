@@ -12,7 +12,7 @@ console.log(baseURL + uri);
 console.log(key);
 
 
-// Handling functions trigger by time trigger
+// Handling functions by time trigger
 export const ametterBatch = functions.pubsub.schedule('00 00 * * *')
     .timeZone('Japan/Tokyo')
     .onRun((context) => {
