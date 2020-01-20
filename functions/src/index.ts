@@ -1,8 +1,7 @@
-import * as functions from 'firebase-functions';
+import {ametterBackend} from "./ametter-backend"
+import {ametterBatch} from "./ametter-batch"
 
-// // Start writing Firebase Functions
-// // https://firebase.google.com/docs/functions/typescript
-//
-// export const helloWorld = functions.https.onRequest((request, response) => {
-//  response.send("Hello from Firebase!");
-// });
+export {
+    ametterBackend,
+    ametterBatch
+}
